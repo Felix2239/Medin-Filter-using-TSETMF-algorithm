@@ -1,0 +1,219 @@
+$date
+	Mon Apr  6 14:54:16 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_H1 $end
+$var wire 16 ! H1_res [15:0] $end
+$var reg 1 " clear $end
+$var reg 1 # clk $end
+$var reg 5 $ count [4:0] $end
+$var reg 1 % en $end
+$var reg 16 & expected [15:0] $end
+$var reg 1 ' mode $end
+$var reg 1 ( rst_n $end
+$var integer 32 ) errors [31:0] $end
+$scope function lut3 $end
+$var reg 4 * c [3:0] $end
+$upscope $end
+$scope function lut5 $end
+$var reg 5 + c [4:0] $end
+$upscope $end
+$scope module uut $end
+$var wire 1 " clear $end
+$var wire 1 # clk $end
+$var wire 5 , count [4:0] $end
+$var wire 1 % en $end
+$var wire 1 ' mode $end
+$var wire 1 ( rst_n $end
+$var wire 5 - bg_count_5x5 [4:0] $end
+$var wire 4 . bg_count_3x3 [3:0] $end
+$var wire 12 / En5_res [11:0] $end
+$var wire 9 0 En3_res [8:0] $end
+$var reg 16 1 H1_res [15:0] $end
+$scope module inst1 $end
+$var wire 4 2 count [3:0] $end
+$var reg 9 3 En3_res [8:0] $end
+$upscope $end
+$scope module inst2 $end
+$var wire 5 4 count [4:0] $end
+$var reg 12 5 En5_res [11:0] $end
+$upscope $end
+$upscope $end
+$scope task apply_and_check $end
+$var reg 5 6 i_count [4:0] $end
+$var reg 1 7 i_mode $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+x7
+bx 6
+b0 5
+b0 4
+b0 3
+b0 2
+b0 1
+b0 0
+b0 /
+b1001 .
+b11001 -
+b0 ,
+bx +
+bx *
+b0 )
+0(
+0'
+b0 &
+0%
+b0 $
+0#
+0"
+b0 !
+$end
+#5000
+1#
+#10000
+0#
+#15000
+b101110111 0
+b101110111 3
+b110 .
+b11 2
+b100000101 /
+b100000101 5
+b10110 -
+b11 $
+b11 ,
+b11 4
+07
+b11 6
+1%
+1(
+1#
+#20000
+0#
+#25000
+b101110111 !
+b101110111 1
+1#
+#26000
+b11111010 0
+b11111010 3
+b1000 .
+b1 2
+b10000100 /
+b10000100 5
+b11000 -
+b1 $
+b1 ,
+b1 4
+b1 6
+b101110111 &
+b11 *
+#30000
+0#
+#35000
+b1001110001 !
+b1001110001 1
+1#
+#36000
+b0 0
+b0 3
+b1001 .
+b0 2
+b0 /
+b0 5
+b11001 -
+b0 $
+b0 ,
+b0 4
+b0 6
+b1001110001 &
+b1 *
+#40000
+0#
+#45000
+1#
+#46000
+1"
+b0 *
+#50000
+0#
+#55000
+b0 !
+b0 1
+1#
+#56000
+b1111 .
+b1010 2
+b101110111 /
+b101110111 5
+b1111 -
+b1010 $
+b1010 ,
+b1010 4
+1'
+17
+b1010 6
+0"
+b0 &
+#60000
+0#
+#65000
+b101110111 !
+b101110111 1
+1#
+#66000
+b101010110 0
+b101010110 3
+b111 .
+b10 2
+b11001111 /
+b11001111 5
+b10111 -
+b10 $
+b10 ,
+b10 4
+b10 6
+b101110111 &
+b1010 +
+#70000
+0#
+#75000
+b1001000110 !
+b1001000110 1
+1#
+#76000
+b0 0
+b0 3
+b0 .
+b1001 2
+b0 /
+b0 5
+b0 -
+b11001 $
+b11001 ,
+b11001 4
+b11001 6
+b1001000110 &
+b10 +
+#80000
+0#
+#85000
+1#
+#86000
+b11001 +
+#90000
+0#
+#95000
+1#
+#96000
