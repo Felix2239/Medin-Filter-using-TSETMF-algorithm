@@ -25,8 +25,11 @@ H1:
 Threshold:
 	iverilog -o $(SIM)/sim_Thres $(TB)/tb_Threshold_T.v $(SRC)/Threshold_T.v
 	vvp $(SIM)/sim_Thres
-
-all: E3 E5 H0 H1 Threshold
+Histogram:
+	iverilog -o $(SIM)/sim_Histogram $(TB)/tb_Histogram.v $(SRC)/Histogram.v 
+	vvp $(SIM)/sim_Histogram
+	
+all: E3 E5 H0 H1 Threshold Histogram
 
 clean:
 	rm -rf $(SIM)/*
